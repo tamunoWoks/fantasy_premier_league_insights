@@ -28,3 +28,12 @@ FROM sfpl;
 **Output= N193,000.**
 
 ---
+4. What is the total prize won by each team?  
+```sql
+SELECT 
+	winner, SUM(prize) as total_winnings
+FROM sfpl
+WHERE winner IS NOT NULL
+GROUP BY 1
+ORDER BY 2 DESC;
+```
