@@ -19,3 +19,12 @@ WHERE participants IS NOT NULL;
 **Output= 35.**
 
 ---
+3. How much was shared among winners throughout entire season?
+```sql
+SELECT 
+	SUM(prize) as total_prize_shared
+FROM sfpl;
+```
+**Output= N193,000.**
+
+---
