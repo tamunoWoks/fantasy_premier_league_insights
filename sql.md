@@ -31,9 +31,12 @@ FROM sfpl;
 4. What is the total prize won by each team?  
 ```sql
 SELECT 
-	winner, SUM(prize) as total_winnings
+   winner, SUM(prize) as total_winnings
 FROM sfpl
 WHERE winner IS NOT NULL
 GROUP BY 1
 ORDER BY 2 DESC;
 ```
+| Winner | Total Winnings |
+|--------|----------------|
+| Wolfgang FC | N49,000 |
