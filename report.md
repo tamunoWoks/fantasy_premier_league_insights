@@ -7,3 +7,4 @@
 ---
 3. How much was shared among winners throughout entire season?  
    **= N193,000.**
+---
