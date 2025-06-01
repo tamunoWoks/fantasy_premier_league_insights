@@ -76,3 +76,24 @@ LIMIT 1;
 | Gameweek | Team        | Prize   |
 |----------|-------------|---------|
 | 17       | Wolfgang FC | N10,000 |
+
+---
+6. Who won the highest weekly prize?
+```sql
+SELECT 
+    gameweek,
+    winner AS Team,
+    'N' || TO_CHAR(prize, 'FM999,999') AS Prize_won
+FROM 
+   sfpl
+WHERE 
+    prize = (
+        SELECT MIN(prize) 
+        FROM sfpl
+    )
+LIMIT 1;
+```
+**Output:**
+| Gameweek | Team        | Prize   |
+|----------|-------------|---------|
+| 11       | Dandi CF    | N3,000  |
