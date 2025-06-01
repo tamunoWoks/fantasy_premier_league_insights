@@ -43,6 +43,7 @@ GROUP BY
 ORDER BY 
     SUM("prize") DESC;
 ```
+**Output:**
 | Rank | Team          | Total Winnings |
 |------|---------------|----------------|
 | 1    | Wolfgang FC   | N49,000        |
@@ -71,3 +72,7 @@ WHERE
     )
 LIMIT 1;
 ```
+**Output:**
+| Gameweek | Team        | Prize   |
+|----------|-------------|---------|
+| 17       | Wolfgang FC | N10,000 |
