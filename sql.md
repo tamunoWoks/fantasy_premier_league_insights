@@ -43,14 +43,14 @@ GROUP BY
 ORDER BY 
     SUM("prize") DESC;
 ```
-| | Winner | Total Winnings |
-|-|:--------|:----------------|
-| 1 | Wolfgang FC | N49,000 |
-| 2 | Dandi CF | N41,000 |
-| 3 | Bode United | N28,000 |
-| 4 | FC Storm | N24,000 |
-| 5 | Rich Boyz FC  | N21,000 |
-| 6 | A.O.E. FC | N11,000 |
-| 7 | Ogbonna FC | N7,000 |
-| 8 | Pontus FC | N6,000 |
-| 8 | Obarifiomi FC | N6,000 |
+| Rank | Team          | Total Winnings |
+|------|---------------|----------------|
+| 1    | Wolfgang FC   | N49,000        |
+| 2    | Dandi CF      | N41,000        |
+| 3    | Bode United   | N28,000        |
+| 4    | FC Storm      | N24,000        |
+| 5    | Rich Boyz FC  | N21,000        |
+| 6    | A.O.E. FC     | N11,000        |
+| 7    | Ogbonna FC    | N7,000         |
+| 8    | Pontus FC     | N6,000         |
+| 8    | Obarifiomi FC | N6,000         |
