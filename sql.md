@@ -115,7 +115,7 @@ ORDER BY
 ```
 **Output:**
 | Rank | Team          | Winning weeks |
-|------|---------------|---------------|
+|:------|:---------------|:---------------|
 | 1    | Wolfgang FC   | 8             |
 | 2    | Dandi CF      | 8             |
 | 3    | FC Storm      | 5             |
