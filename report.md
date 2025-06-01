@@ -30,7 +30,6 @@
 ---
 - Who won the highest weekly prize?
 
-**Output:**
 | Gameweek | Team        | Prize   |
 |----------|-------------|---------|
 | 11       | Dandi CF    | N3,000  |
