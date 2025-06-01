@@ -54,3 +54,20 @@ ORDER BY
 | 7    | Ogbonna FC    | N7,000         |
 | 8    | Pontus FC     | N6,000         |
 | 8    | Obarifiomi FC | N6,000         |
+
+---
+5. Who won the highest weekly prize?
+```sql
+SELECT 
+    gameweek,
+    winner AS Team,
+    'N' || TO_CHAR(prize, 'FM999,999') AS Prize_won
+FROM 
+   sfpl
+WHERE 
+    prize = (
+        SELECT MAX(prize) 
+        FROM sfpl
+    )
+LIMIT 1;
+```
