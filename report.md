@@ -9,7 +9,7 @@
    **= N193,000.**
 ---
 4. What is the total prize won by each team?
-|| Winner | Total Winnings |  
+| | Winner | Total Winnings |  
 |:-|:--------|:----------------|  
 | 1 | Wolfgang FC | N49,000 |  
 | 2 | Dandi CF | N41,000 |  
