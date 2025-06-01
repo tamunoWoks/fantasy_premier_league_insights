@@ -20,5 +20,5 @@
 | 6    | A.O.E. FC     | N11,000        |
 | 7    | Ogbonna FC    | N7,000         |
 | 8    | Pontus FC     | N6,000         |
-| 9    | Obarifiomi FC | N6,000         |
+| 8    | Obarifiomi FC | N6,000         |
   
