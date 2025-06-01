@@ -8,7 +8,7 @@
 3. How much was shared among winners throughout entire season?  
    **= N193,000.**
 ---
-4. What is the total prize won by each team?  
+4. What is the total prize won by each team?
 | | Winner | Total Winnings |  
 |:-|:--------|:----------------|  
 | 1 | Wolfgang FC | N49,000 |  
