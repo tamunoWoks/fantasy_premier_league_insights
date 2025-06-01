@@ -31,11 +31,17 @@ FROM sfpl;
 4. What is the total prize won by each team?  
 ```sql
 SELECT 
-   winner, SUM(prize) as total_winnings
-FROM sfpl
-WHERE winner IS NOT NULL
-GROUP BY 1
-ORDER BY 2 DESC;
+    RANK() OVER (ORDER BY SUM("prize") DESC) AS "Rank",
+    winner AS "Team",
+    'N' || TO_CHAR(SUM("prize"), 'FM999,999') AS "Total Winnings"
+FROM 
+    sfpl
+WHERE 
+    winner IS NOT NULL
+GROUP BY 
+    winner
+ORDER BY 
+    SUM("prize") DESC;
 ```
 | | Winner | Total Winnings |
 |-|:--------|:----------------|
@@ -47,4 +53,4 @@ ORDER BY 2 DESC;
 | 6 | A.O.E. FC | N11,000 |
 | 7 | Ogbonna FC | N7,000 |
 | 8 | Pontus FC | N6,000 |
-| 9 | Obarifiomi FC | N6,000 |
+| 8 | Obarifiomi FC | N6,000 |
