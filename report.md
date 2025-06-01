@@ -9,6 +9,7 @@
    **= N193,000.**
 ---
 - What is the total prize won by each team throughout season?
+
 | Rank | Team          | Total Winnings |
 |------|---------------|----------------|
 | 1    | Wolfgang FC   | N49,000        |
@@ -21,7 +22,8 @@
 | 8    | Pontus FC     | N6,000         |
 | 8    | Obarifiomi FC | N6,000         |
 ---
-- Who won the highest weekly prize?  
+- Who won the highest weekly prize?
+
 | Gameweek | Team        | Prize   |
 |----------|-------------|---------|
 | 17       | Wolfgang FC | N10,000 |
