@@ -37,14 +37,14 @@ WHERE winner IS NOT NULL
 GROUP BY 1
 ORDER BY 2 DESC;
 ```
-| Winner | Total Winnings |
-|:--------|:----------------|
-| Wolfgang FC | N49,000 |
-| Dandi CF | N41,000 |
-| Bode United | N28,000 |
-| FC Storm | N24,000 |
-| Rich Boyz FC  | N21,000 |
-| A.O.E. FC | N11,000 |
-| Ogbonna FC | N7,000 |
-| Pontus FC | N6,000 |
-| Obarifiomi FC | N6,000 |
+| | Winner | Total Winnings |
+|-|:--------|:----------------|
+| 1 | Wolfgang FC | N49,000 |
+| 2 | Dandi CF | N41,000 |
+| 3 | Bode United | N28,000 |
+| 4 | FC Storm | N24,000 |
+| 5 | Rich Boyz FC  | N21,000 |
+| 6 | A.O.E. FC | N11,000 |
+| 7 | Ogbonna FC | N7,000 |
+| 8 | Pontus FC | N6,000 |
+| 9 | Obarifiomi FC | N6,000 |
