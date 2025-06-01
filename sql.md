@@ -1,6 +1,6 @@
 **This file contains all questions asked of the dataset along side the sql queries used to return the results.**
 ---
-1. How many Gameweeks were available in total?
+- How many Gameweeks were available in total?
 ```sql
 SELECT
   COUNT(*) AS gameweeks
@@ -9,7 +9,7 @@ FROM sfpl;
 **Output= 38.**
 
 ---
-2. How many Gameweeks did participants stake?
+- How many Gameweeks did participants stake?
 ```sql
 SELECT
   COUNT(*) AS active_gameweeks
@@ -19,7 +19,7 @@ WHERE participants IS NOT NULL;
 **Output= 35.**
 
 ---
-3. How much was shared among winners throughout entire season?
+- How much was shared among winners throughout entire season?
 ```sql
 SELECT 
   SUM(prize) as total_prize_shared
@@ -28,7 +28,7 @@ FROM sfpl;
 **Output= N193,000.**
 
 ---
-4. What is the total prize won by each team?  
+- What is the total prize won by each team?  
 ```sql
 SELECT 
     RANK() OVER (ORDER BY SUM("prize") DESC) AS "Rank",
@@ -57,7 +57,7 @@ ORDER BY
 | 8    | Obarifiomi FC | N6,000         |
 
 ---
-5. Who won the highest weekly prize?
+- Who won the highest weekly prize?
 ```sql
 SELECT 
     gameweek,
@@ -78,7 +78,7 @@ LIMIT 1;
 | 17       | Wolfgang FC | N10,000 |
 
 ---
-6. Who won the highest weekly prize?
+- Who won the highest weekly prize?
 ```sql
 SELECT 
     gameweek,
@@ -97,3 +97,19 @@ LIMIT 1;
 | Gameweek | Team        | Prize   |
 |----------|-------------|---------|
 | 11       | Dandi CF    | N3,000  |
+---
+- Team rankings according to weeks won:
+```sql
+SELECT 
+    RANK() OVER (ORDER BY COUNT(winner) DESC) as rank,
+    winner as team,
+    COUNT(winner) as winning_weeks
+FROM 
+    sfpl
+WHERE 
+    winner IS NOT NULL
+GROUP BY 
+    winner
+ORDER BY 
+    COUNT(winner) DESC;
+```
