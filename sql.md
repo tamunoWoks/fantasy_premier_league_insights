@@ -6,6 +6,6 @@ SELECT
   COUNT(*) AS gameweeks
 FROM sfpl;
 ```
-**Output= 38.**
+Output= **38.**
 ---
 2. How many Gameweeks did participants stake?
