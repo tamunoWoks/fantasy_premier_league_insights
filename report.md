@@ -21,7 +21,7 @@
 | 8    | Pontus FC     | N6,000         |
 | 8    | Obarifiomi FC | N6,000         |
 ---
-- Who won the highest weekly prize?
+- Who won the highest weekly prize?  
 | Gameweek | Team        | Prize   |
 |----------|-------------|---------|
 | 17       | Wolfgang FC | N10,000 |
