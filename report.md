@@ -27,3 +27,11 @@
 | Gameweek | Team        | Prize   |
 |----------|-------------|---------|
 | 17       | Wolfgang FC | N10,000 |
+---
+- Who won the highest weekly prize?
+
+**Output:**
+| Gameweek | Team        | Prize   |
+|----------|-------------|---------|
+| 11       | Dandi CF    | N3,000  |
+--- 
