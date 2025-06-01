@@ -6,3 +6,4 @@ SELECT
 FROM sfpl;
 ```
 **Output= 38.**
+---
