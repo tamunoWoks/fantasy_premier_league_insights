@@ -34,3 +34,17 @@
 |----------|-------------|---------|
 | 11       | Dandi CF    | N3,000  |
 --- 
+- Team rankings according to weeks won:
+
+| Rank | Team          | Winning weeks |
+|:------|:---------------|:---------------|
+| 1    | Wolfgang FC   | 8             |
+| 2    | Dandi CF      | 8             |
+| 3    | FC Storm      | 5             |
+| 4    | Bode United   | 5             |
+| 5    | Rich Boyz FC  | 4             |
+| 6    | A.O.E. FC     | 2             |
+| 7    | Ogbonna FC    | 1             |
+| 8    | Obarifiomi FC | 1             |
+| 8    | Pontus FC     | 1             |
+---
