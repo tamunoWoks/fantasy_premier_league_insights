@@ -5,5 +5,5 @@
 2. How many Gameweeks did participants stake?  
    **= 35.**
 ---
-3. How much was shared among winners throughout entire season?
+3. How much was shared among winners throughout entire season?  
    **= N193,000.**
