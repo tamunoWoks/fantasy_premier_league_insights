@@ -1,8 +1,8 @@
 ## Sunshine Fantasy Premier League Season 1 Report
-### How many Gameweeks were active in total?  
+### - How many Gameweeks were active in total?  
    **= 38.**
 ---
-### How many Gameweeks did participants stake?  
+### - How many Gameweeks did participants stake?  
    **= 35.**
 ---
 ### How much was shared among winners throughout entire season?  
