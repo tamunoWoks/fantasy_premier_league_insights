@@ -134,3 +134,11 @@ FROM sfpl
 ```
 **Output= 6**
 ---
+- What is the Average amount of weekly stakes?
+```sql
+SELECT
+	ROUND(AVG(prize), 0) as Avg_weekly_stakes
+FROM sfpl
+```
+**Output= 5514**
+---
