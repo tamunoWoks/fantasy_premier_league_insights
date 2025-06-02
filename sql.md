@@ -125,3 +125,11 @@ ORDER BY
 | 7    | Ogbonna FC    | 1             |
 | 8    | Obarifiomi FC | 1             |
 | 8    | Pontus FC     | 1             |
+---
+- What is the Average number of weekly stakers?
+```sql
+SELECT
+	ROUND(AVG(participants), 0) as Avg_weekly_stakers
+FROM sfpl
+```
+**Output= 6**
