@@ -228,3 +228,51 @@ ORDER BY
 | 4    | A.O.E. FC     | N6,000            |
 | 4    | Rich Boyz FC  | N6,000            |
 ---
+- Which teams had consecutive gameweek winnings?teams and their most consecutive prize winnings?
+```sql
+WITH numbered_games AS (
+  SELECT 
+    gameweek,
+    winner,
+    ROW_NUMBER() OVER (PARTITION BY winner ORDER BY gameweek) AS winner_seq,
+    ROW_NUMBER() OVER (ORDER BY gameweek) AS overall_seq
+  FROM 
+    sfpl
+  WHERE 
+    winner IS NOT NULL
+),
+streak_groups AS (
+  SELECT
+    winner,
+    (overall_seq - winner_seq) AS streak_id
+  FROM
+    numbered_games
+),
+streak_lengths AS (
+  SELECT
+    winner AS team,
+    COUNT(*) AS streak_length
+  FROM
+    streak_groups
+  GROUP BY
+    winner, streak_id
+  HAVING
+    COUNT(*) >= 2  -- Only include streaks of 2+ wins
+)
+SELECT
+  RANK() OVER (ORDER BY MAX(streak_length) DESC) AS rank,
+  team,
+  MAX(streak_length) AS longest_consecutive_wins
+FROM
+  streak_lengths
+GROUP BY
+  team
+ORDER BY
+  longest_consecutive_wins DESC, team;
+```
+| Rank | Team        | Consecutive wins |
+|:-----|:------------|:-----------------|
+| 1    | Dandi CF    | 3                |
+| 2    | FC Storm    | 2                |
+| 2    | Wolfgang FC | 2                |
+---
