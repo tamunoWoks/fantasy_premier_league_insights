@@ -57,11 +57,12 @@ ORDER BY
 | 8    | Obarifiomi FC | N6,000         |
 
 ---
-- Who won the highest weekly prize?
+- What week had the highest number of stakers, and who won that week?
 ```sql
 SELECT 
     gameweek,
     winner AS Team,
+    participants AS weekly_participants,
     'N' || TO_CHAR(prize, 'FM999,999') AS Prize_won
 FROM 
    sfpl
@@ -78,11 +79,12 @@ LIMIT 1;
 | 17       | Wolfgang FC | N10,000 |
 
 ---
-- Who won the highest weekly prize?
+- What week had the lowest number of stakers, and who won that week?
 ```sql
 SELECT 
     gameweek,
     winner AS Team,
+    participants AS weekly_participants,
     'N' || TO_CHAR(prize, 'FM999,999') AS Prize_won
 FROM 
    sfpl
@@ -184,8 +186,45 @@ WHERE
 LIMIT 1;
 ```
 **Output:**
-
 | Gameweek | Team        | Points won |
 |:---------|:------------|:-----------|
 | 11       | Dandi CF    | 37         |
+---
+- Count the number of distinct winners:
+```sql
+SELECT 
+    COUNT(DISTINCT winner) AS distinct_winners_count
+FROM 
+    sfpl
+WHERE 
+    winner IS NOT NULL;
+```
+**Output= 9.**
+---
+- What is each team's highest prize win?
+```sql
+SELECT
+    RANK() OVER (ORDER BY MAX(prize) DESC) AS rank,
+    winner AS team,
+    'N' || TO_CHAR(MAX(prize), 'FM999,999') AS highest_prize_won
+FROM
+    sfpl
+WHERE
+    winner IS NOT NULL
+GROUP BY
+    winner
+ORDER BY
+    MAX(prize) DESC;
+```
+| Rank | Team          | Highest Prize Won |
+|:-----|:--------------|:------------------|
+| 1    | Wolfgang FC   | N10,000           |
+| 2    | Bode United   | N7,000            |
+| 2    | Ogbonna FC    | N7,000            |
+| 4    | Pontus Fc     | N6,000            |
+| 4    | Dandi CF      | N6,000            |
+| 4    | FC Storm      | N6,000            |
+| 4    | Obariafomi FC | N6,000            |
+| 4    | A.O.E. FC     | N6,000            |
+| 4    | Rich Boyz FC  | N6,000            |
 ---
