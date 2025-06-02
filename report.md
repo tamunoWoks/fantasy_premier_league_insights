@@ -45,6 +45,20 @@
 | 8    | Pontus FC     | N6,000         |
 | 8    | Obarifiomi FC | N6,000         |
 ---
+### What is each team's highest prize win?
+
+| Rank | Team          | Highest Prize Won |
+|:-----|:--------------|:------------------|
+| 1    | Wolfgang FC   | N10,000           |
+| 2    | Bode United   | N7,000            |
+| 2    | Ogbonna FC    | N7,000            |
+| 4    | Pontus Fc     | N6,000            |
+| 4    | Dandi CF      | N6,000            |
+| 4    | FC Storm      | N6,000            |
+| 4    | Obariafomi FC | N6,000            |
+| 4    | A.O.E. FC     | N6,000            |
+| 4    | Rich Boyz FC  | N6,000            |
+---
 ### What week had the highest number of stakers, and who won that week?
 
 | Gameweek | Winning Team        | No. of stakers | Prize   |
