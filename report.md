@@ -54,4 +54,8 @@
 |----------|-------------|---------|
 | 11       | Dandi CF    | N3,000  |
 --- 
+### Who won the highest weekly points, in what week?
 
+| Gameweek | Team        | Points won   |
+|----------|-------------|--------------|
+| 11       | Bode United | 116          |
