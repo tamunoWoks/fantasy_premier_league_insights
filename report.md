@@ -83,3 +83,11 @@
 |----------|-------------|--------------|
 | 11       | Bode United | 37           |
 ---
+### Which teams had consecutive gameweek winnings?
+
+| Rank | Team        | Consecutive wins |
+|:-----|:------------|:-----------------|
+| 1    | Dandi CF    | 3                |
+| 2    | FC Storm    | 2                |
+| 2    | Wolfgang FC | 2                |
+---
