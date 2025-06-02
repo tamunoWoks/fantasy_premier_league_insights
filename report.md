@@ -8,6 +8,9 @@
 ### How much was shared among winners throughout entire season?  
    **= N193,000.**
 ---
+### What is the Average number of weekly stakers?
+   **= 6.**
+---
 ### Team rankings according to weeks won:
 
 | Rank | Team          | Winning weeks |
@@ -21,6 +24,9 @@
 | 7    | Ogbonna FC    | 1             |
 | 7    | Obarifiomi FC | 1             |
 | 7    | Pontus FC     | 1             |
+---
+### What is the Average amount of weekly stakes?
+   **= N5,514.**
 ---
 ### What is the total prize won by each team throughout season?
 
