@@ -1,20 +1,20 @@
-## Sunshine Fantasy Premier League Season 1 Report
-### How many Gameweeks were active in total?  
+## SUNSHINE 2024/2025 FANTASY PREMIER LEAGUE REPORT
+### 1. How many Gameweeks were active in total?  
    **= 38.**
 ---
-### How many Gameweeks did participants stake?  
+### 2. How many Gameweeks did participants stake?  
    **= 35.**
 ---
-### How much was shared among winners throughout entire season?  
+### 3. How much was shared among winners throughout entire season?  
    **= N193,000.**
 ---
-### What is the Average number of weekly stakers?
+### 4. What is the Average number of weekly stakers?
    **= 6.**
 ---
-### How many teams won the weekly prize?
+### 5. How many teams won the weekly prize?
   **= 9.**
 ---
-### Which teams won the weekly prize, and how many weeks did each win:
+### 6. Which teams won the weekly prize, and how many weeks did each win:
 
 | Rank | Team          | Winning weeks |
 |:------|:---------------|:---------------|
@@ -28,10 +28,10 @@
 | 7    | Obarifiomi FC | 1             |
 | 7    | Pontus FC     | 1             |
 ---
-### What is the Average amount of weekly stakes?
+### 7. What is the Average amount of weekly stakes?
    **= N5,514.**
 ---
-### What is the total prize won by each team throughout season?
+### 8. What is the total prize won by each team throughout season?
 
 | Rank | Team          | Total Winnings |
 |------|---------------|----------------|
@@ -45,7 +45,7 @@
 | 8    | Pontus FC     | N6,000         |
 | 8    | Obarifiomi FC | N6,000         |
 ---
-### What is each team's highest prize win?
+### 9. What is each team's highest prize win?
 
 | Rank | Team          | Highest Prize Won |
 |:-----|:--------------|:------------------|
@@ -59,31 +59,31 @@
 | 4    | A.O.E. FC     | N6,000            |
 | 4    | Rich Boyz FC  | N6,000            |
 ---
-### What week had the highest number of stakers, and who won that week?
+### 10. What week had the highest number of stakers, and who won that week?
 
 | Gameweek | Winning Team        | No. of stakers | Prize   |
 |----------|---------------------|----------------|---------|
 | 17       | Wolfgang FC         | 10             | N10,000 |
 ---
-### What week had the lowest number of stakers, and who won that week?
+### 11. What week had the lowest number of stakers, and who won that week?
 
 | Gameweek | Winning Team        | No. of stakers | Prize   |
 |----------|---------------------|----------------|---------|
 | 11       | Dandi CF            | 3              | N3,000  |
 --- 
-### Which winning team won the most points per week, and in what week?
+### 12. Which winning team won the most points per week, and in what week?
 
 | Gameweek | Team        | Points won   |
 |----------|-------------|--------------|
 | 24       | Bode United | 116          |
 --- 
-### Who winning team won the least points per week, and in what week?
+### 13. Which winning team won the least points per week, and in what week?
 
 | Gameweek | Team        | Points won   |
 |----------|-------------|--------------|
 | 11       | Bode United | 37           |
 ---
-### Which teams had consecutive gameweek winnings?
+### 14. Which teams had consecutive gameweek winnings?
 
 | Rank | Team        | Consecutive wins |
 |:-----|:------------|:-----------------|
