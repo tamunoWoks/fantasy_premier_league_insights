@@ -140,5 +140,5 @@ SELECT
 	ROUND(AVG(prize), 0) as Avg_weekly_stakes
 FROM sfpl
 ```
-**Output= 5514**
+**Output= N5,514**
 ---
