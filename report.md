@@ -58,4 +58,11 @@
 
 | Gameweek | Team        | Points won   |
 |----------|-------------|--------------|
-| 11       | Bode United | 116          |
+| 24       | Bode United | 116          |
+--- 
+### Who won the lowest weekly points, in what week?
+
+| Gameweek | Team        | Points won   |
+|----------|-------------|--------------|
+| 11       | Bode United | 37           |
+---
