@@ -66,3 +66,9 @@
 |----------|-------------|--------------|
 | 11       | Bode United | 37           |
 ---
+### What week had the highest number of stakers, and who won that week?
+
+| Gameweek | No of Participants        | Winner      |
+|:---------|:--------------------------|:------------|
+| 11       | Dandi CF                  | Wolfgang FC |
+---
