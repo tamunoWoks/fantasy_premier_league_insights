@@ -1,5 +1,4 @@
 ## Sunshine Fantasy Premier League Season 1 Report
----
 ### How many Gameweeks were active in total?  
    **= 38.**
 ---
