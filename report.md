@@ -42,33 +42,27 @@
 | 8    | Pontus FC     | N6,000         |
 | 8    | Obarifiomi FC | N6,000         |
 ---
-### Who won the highest weekly prize?
+### What week had the highest number of stakers, and who won that week?
 
-| Gameweek | Team        | No. of stakers | Prize   |
-|----------|-------------|----------------|---------|
-| 17       | Wolfgang FC | 10             | N10,000 |
+| Gameweek | Winning Team        | No. of stakers | Prize   |
+|----------|---------------------|----------------|---------|
+| 17       | Wolfgang FC         | 10             | N10,000 |
 ---
-### Who won the lowest weekly prize?
+### What week had the loweest number of stakers, and who won that week?
 
-| Gameweek | Team        | No. of stakers | Prize   |
-|----------|-------------|----------------|---------|
-| 11       | Dandi CF    | 3              | N3,000  |
+| Gameweek | Winning Team        | No. of stakers | Prize   |
+|----------|---------------------|----------------|---------|
+| 11       | Dandi CF            | 3              | N3,000  |
 --- 
-### Who won the highest weekly points, in what week?
+### Who won the most points per week, and in what week?
 
 | Gameweek | Team        | Points won   |
 |----------|-------------|--------------|
 | 24       | Bode United | 116          |
 --- 
-### Who won the lowest weekly points, in what week?
+### Who won the least points per week, and in what week?
 
 | Gameweek | Team        | Points won   |
 |----------|-------------|--------------|
 | 11       | Bode United | 37           |
----
-### What week had the highest number of stakers, and who won that week?
-
-| Gameweek | No of Participants        | Winner      |
-|:---------|:--------------------------|:------------|
-| 11       | Dandi CF                  | Wolfgang FC |
 ---
