@@ -51,19 +51,19 @@
 |----------|---------------------|----------------|---------|
 | 17       | Wolfgang FC         | 10             | N10,000 |
 ---
-### What week had the loweest number of stakers, and who won that week?
+### What week had the lowest number of stakers, and who won that week?
 
 | Gameweek | Winning Team        | No. of stakers | Prize   |
 |----------|---------------------|----------------|---------|
 | 11       | Dandi CF            | 3              | N3,000  |
 --- 
-### Who won the most points per week, and in what week?
+### Which winning team won the most points per week, and in what week?
 
 | Gameweek | Team        | Points won   |
 |----------|-------------|--------------|
 | 24       | Bode United | 116          |
 --- 
-### Who won the least points per week, and in what week?
+### Who winning team won the least points per week, and in what week?
 
 | Gameweek | Team        | Points won   |
 |----------|-------------|--------------|
