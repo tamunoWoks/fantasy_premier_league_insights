@@ -133,3 +133,4 @@ SELECT
 FROM sfpl
 ```
 **Output= 6**
+---
