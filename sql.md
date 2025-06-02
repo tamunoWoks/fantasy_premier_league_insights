@@ -228,7 +228,7 @@ ORDER BY
 | 4    | A.O.E. FC     | N6,000            |
 | 4    | Rich Boyz FC  | N6,000            |
 ---
-- Which teams had consecutive gameweek winnings?teams and their most consecutive prize winnings?
+- Which teams had consecutive gameweek winnings?
 ```sql
 WITH numbered_games AS (
   SELECT 
