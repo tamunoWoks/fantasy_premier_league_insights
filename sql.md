@@ -168,3 +168,24 @@ LIMIT 1;
 |:---------|:------------|:-----------|
 | 24       | Bode United | 116        |
 ---
+- Who won the lowest weekly points, in what week?
+```sql
+SELECT 
+    gameweek,
+    winner AS Team,
+    winning_points AS Points_won
+FROM 
+   sfpl
+WHERE 
+    winning_points = (
+        SELECT MIN(winning_points) 
+        FROM sfpl
+    )
+LIMIT 1;
+```
+**Output:**
+
+| Gameweek | Team        | Points won |
+|:---------|:------------|:-----------|
+| 11       | Dandi CF    | 37         |
+---
