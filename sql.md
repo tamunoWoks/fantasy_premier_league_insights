@@ -131,14 +131,19 @@ ORDER BY
 SELECT
 	ROUND(AVG(participants), 0) as Avg_weekly_stakers
 FROM sfpl
+WHERE 
+    prize IS NOT NULL;
 ```
 **Output= 6**
 ---
 - What is the Average amount of weekly stakes?
 ```sql
 SELECT
-	ROUND(AVG(prize), 0) as Avg_weekly_stakes
-FROM sfpl
+    'N' || TO_CHAR(ROUND(AVG(prize)), 'FM999,999') as avg_weekly_stakes
+FROM 
+    sfpl
+WHERE 
+    prize IS NOT NULL;
 ```
 **Output= N5,514**
 ---
