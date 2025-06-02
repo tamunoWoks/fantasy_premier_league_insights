@@ -11,7 +11,7 @@
 ### What is the Average number of weekly stakers?
    **= 6.**
 ---
-### Team rankings according to weeks won:
+### Which teams won the weekly prize, and how many weeks did each win:
 
 | Rank | Team          | Winning weeks |
 |:------|:---------------|:---------------|
