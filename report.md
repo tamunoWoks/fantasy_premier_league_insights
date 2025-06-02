@@ -71,13 +71,13 @@
 |----------|---------------------|----------------|---------|
 | 11       | Dandi CF            | 3              | N3,000  |
 --- 
-### 12. Which winning team won the most points per week, and in what week?
+### 12. Which team won a gameweek with the most points, and in what week?
 
 | Gameweek | Team        | Points won   |
 |----------|-------------|--------------|
 | 24       | Bode United | 116          |
 --- 
-### 13. Which winning team won the least points per week, and in what week?
+### 13. Which team won a gameweek with the smallest points, and in what week?
 
 | Gameweek | Team        | Points won   |
 |----------|-------------|--------------|
