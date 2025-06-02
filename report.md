@@ -1,28 +1,29 @@
 ## Sunshine Fantasy Premier League Season 1 Report
-- How many Gameweeks were active in total?  
+---
+### How many Gameweeks were active in total?  
    **= 38.**
 ---
-- How many Gameweeks did participants stake?  
+### How many Gameweeks did participants stake?  
    **= 35.**
 ---
-- How much was shared among winners throughout entire season?  
+### How much was shared among winners throughout entire season?  
    **= N193,000.**
 ---
-- Team rankings according to weeks won:
+### Team rankings according to weeks won:
 
 | Rank | Team          | Winning weeks |
 |:------|:---------------|:---------------|
 | 1    | Wolfgang FC   | 8             |
-| 2    | Dandi CF      | 8             |
+| 1    | Dandi CF      | 8             |
 | 3    | FC Storm      | 5             |
-| 4    | Bode United   | 5             |
+| 3    | Bode United   | 5             |
 | 5    | Rich Boyz FC  | 4             |
 | 6    | A.O.E. FC     | 2             |
 | 7    | Ogbonna FC    | 1             |
-| 8    | Obarifiomi FC | 1             |
-| 8    | Pontus FC     | 1             |
+| 7    | Obarifiomi FC | 1             |
+| 7    | Pontus FC     | 1             |
 ---
-- What is the total prize won by each team throughout season?
+### What is the total prize won by each team throughout season?
 
 | Rank | Team          | Total Winnings |
 |------|---------------|----------------|
@@ -36,13 +37,13 @@
 | 8    | Pontus FC     | N6,000         |
 | 8    | Obarifiomi FC | N6,000         |
 ---
-- Who won the highest weekly prize?
+### Who won the highest weekly prize?
 
 | Gameweek | Team        | Prize   |
 |----------|-------------|---------|
 | 17       | Wolfgang FC | N10,000 |
 ---
-- Who won the lowest weekly prize?
+### Who won the lowest weekly prize?
 
 | Gameweek | Team        | Prize   |
 |----------|-------------|---------|
