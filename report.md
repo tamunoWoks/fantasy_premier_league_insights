@@ -44,15 +44,15 @@
 ---
 ### Who won the highest weekly prize?
 
-| Gameweek | Team        | Prize   |
-|----------|-------------|---------|
-| 17       | Wolfgang FC | N10,000 |
+| Gameweek | Team        | No. of stakers | Prize   |
+|----------|-------------|----------------|---------|
+| 17       | Wolfgang FC | 10             | N10,000 |
 ---
 ### Who won the lowest weekly prize?
 
-| Gameweek | Team        | Prize   |
-|----------|-------------|---------|
-| 11       | Dandi CF    | N3,000  |
+| Gameweek | Team        | No. of stakers | Prize   |
+|----------|-------------|----------------|---------|
+| 11       | Dandi CF    | 3              | N3,000  |
 --- 
 ### Who won the highest weekly points, in what week?
 
